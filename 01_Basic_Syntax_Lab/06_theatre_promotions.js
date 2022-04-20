@@ -33,7 +33,6 @@ function calculate_ticket_price(day, age) {
     } else {
         console.log('Error!')
     }
-
 }
 
 calculate_ticket_price('Weekday', 42)
