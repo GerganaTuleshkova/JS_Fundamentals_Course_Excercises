@@ -18,7 +18,7 @@ function month_printer(month_num) {
     } else if (month_num == 9) {
         result = 'September';
     } else if (month_num == 10) {
-        result = 'Ocotber';
+        result = 'October';
     } else if (month_num == 11) {
         result = 'November';
     } else if (month_num == 12) {

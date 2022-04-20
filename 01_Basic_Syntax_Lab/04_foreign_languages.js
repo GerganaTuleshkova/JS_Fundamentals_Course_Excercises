@@ -1,19 +1,17 @@
 function language(country) {
-    if (country == 'USA') {
+    if (country == 'USA' || country == 'England') {
         result = 'English';
-    } else if (country == 'Spain') {
+    } else if (country == 'Spain' || country == 'Argentina' || country == 'Mexico') {
         result = 'Spanish';
-    } else if (country == 'England') {
-        result = 'English';
-    } else if (country == 'Argentina') {
-        result = 'Spanish';
-    } else if (country == 'Mexico') {
-        result = 'Spanish';
-    } else {
+        } else {
         result = 'unknown'
     }
     console.log(result)
 }
 
 language('USA')
+language('England')
+
 language('Germany')
+language(3)
+
