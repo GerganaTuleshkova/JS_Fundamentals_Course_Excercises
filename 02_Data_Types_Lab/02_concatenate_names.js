@@ -4,6 +4,6 @@ function concatenate(name1, name2, delimeter) {
 }
 
 concatenate('John',
-'Smith',
-'->'
+    'Smith',
+    '->'
 );
