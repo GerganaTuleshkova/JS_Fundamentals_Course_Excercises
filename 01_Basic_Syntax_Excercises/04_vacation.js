@@ -1,4 +1,4 @@
-function calcuulate_price(people_count, type, day) {
+function calculate_price(people_count, type, day) {
     let total_price = 0
     let stay_price = 0
     if (type == 'Students') {
@@ -43,6 +43,6 @@ function calcuulate_price(people_count, type, day) {
     console.log(`Total price: ${total_price.toFixed(2)}`);
 }
 
-calcuulate_price(30, "Students", "Sunday")
+calculate_price(30, "Students", "Sunday")
 
-calcuulate_price(40, "Regular", "Saturday")
+calculate_price(40, "Regular", "Saturday")

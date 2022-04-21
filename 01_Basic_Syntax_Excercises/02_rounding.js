@@ -7,4 +7,4 @@ function round(number, precision) {
 }
 
 round(3.145667, 3);
-round(3.155667, 3);
+round(3.150000, 3);

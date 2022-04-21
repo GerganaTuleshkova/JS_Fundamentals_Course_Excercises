@@ -7,7 +7,7 @@ function print_and_sum(start, end) {
         sum += current_num;
         current_num++;
     }
-    console.log(result);
+    console.log(result.trim());
     console.log(`Sum: ${sum}`);
 }
 
