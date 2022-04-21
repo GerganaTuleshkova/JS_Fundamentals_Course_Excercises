@@ -10,7 +10,7 @@ function login(input) {
 
         if (reversedString !== userName) {
             if (counter == 4) {
-                console.log(`User ${userName} blocked`);
+                console.log(`User ${userName} blocked!`);
                 break;
             }
             else {
