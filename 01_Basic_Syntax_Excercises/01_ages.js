@@ -17,8 +17,8 @@ function solve(age) {
 }
 
 
-solve(20)
-solve(1)
-solve(100)
-solve(-1)
-solve(65)
+solve(20);
+solve(1);
+solve(100);
+solve(-1);
+solve(65);
