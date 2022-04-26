@@ -12,7 +12,7 @@ function solve(givenString, char, comparingString) {
         console.log('Matched');
     }
     else {
-        console.log('Not Matched')
+        console.log('Not Matched');
     }
 }
 
