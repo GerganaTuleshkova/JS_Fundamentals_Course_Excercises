@@ -8,7 +8,6 @@ function amazingNumber(number) {
     }
     sumAsString = String(sum)
     let result = sumAsString.includes('9');
-
     console.log(result?
         `${number} Amazing? True` :
         `${number} Amazing? False`);
