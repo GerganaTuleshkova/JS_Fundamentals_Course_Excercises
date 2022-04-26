@@ -1,7 +1,6 @@
 function sum(num1, num2, num3) {
     let sumOfNums = num1 + num2 + num3;
-    let type = sumOfNums % 1 === 0 ? 'Integer': 'Float';
-    
+    let type = sumOfNums % 1 === 0 ? 'Integer': 'Float';    
     console.log(`${sumOfNums} - ${type}`);
 }
 
