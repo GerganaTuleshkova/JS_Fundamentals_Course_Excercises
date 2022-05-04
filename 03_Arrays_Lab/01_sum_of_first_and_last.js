@@ -1,8 +1,6 @@
-function sumFirstLast(numbers){
-    
+function sumFirstLast(numbers){    
     let sum = numbers[0] + numbers[numbers.length-1];
-    console.log(sum)
-
+    console.log(sum);
 }
 
 sumFirstLast([20, 30, 40])
