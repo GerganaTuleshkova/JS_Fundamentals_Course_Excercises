@@ -2,7 +2,7 @@ function dayOfWeek(number) {
     let weekDays = [
         "Monday",
         "Tuesday",
-        "Wednseday",
+        "Wednesday",
         "Thursday",
         "Friday",
         "Saturday",
