@@ -1,11 +1,21 @@
+// function reverseInPlace(arr) {
+//     let reversedArray = '';
+//     for (let i = arr.length - 1; i >= 0; i--) {
+//        reversedArray += arr[i].toString() + ' ';
+//     };
+//     console.log(reversedArray);
+// }
+
 function reverseInPlace(arr) {
-    let reversedArray = '';
-    for (let i = arr.length - 1; i >= 0; i--) {
-       reversedArray += arr[i].toString() + ' ';
-    };
-    console.log(reversedArray);
+    for (let i = 0; i < arr.length / 2; i++) {
+        let k = arr.length - 1 - i;
+        let temp = arr[i];
+        arr[i] = arr[k];
+        arr[k] = temp;
+    }
+    console.log(arr.join(' '))
 }
 
-reverseInPlace(['a', 'b', 'c', 'd', 'e'])
-reverseInPlace(['abc', 'def', 'hig', 'klm', 'nop'])
-reverseInPlace(['33', '123', '0', 'dd'])
+reverseInPlace(['a', 'b', 'c', 'd', 'e']);
+reverseInPlace(['abc', 'def', 'hig', 'klm', 'nop']);
+reverseInPlace(['33', '123', '0', 'dd']);
