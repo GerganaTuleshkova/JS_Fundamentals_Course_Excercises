@@ -8,7 +8,7 @@ function negativeOrPositive(inputArr) {
             newArr.unshift(el);
         }
     }
-   console.log(newArr.join('\r\n'));
+   console.log(newArr.join('\n'));
 }
 
 negativeOrPositive(['7', '-2', '8', '9']);
