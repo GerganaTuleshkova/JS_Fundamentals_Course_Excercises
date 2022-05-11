@@ -1,3 +1,4 @@
+// Option 1: 
 // function mathPower(number, power) {
 //     let result = 1;
     
@@ -7,8 +8,8 @@
 //     console.log(result)
 // }
 
-function mathPower(number, power) {
-        
+// Option 2:
+function mathPower(number, power) {        
         console.log(number ** power)
     }
 
