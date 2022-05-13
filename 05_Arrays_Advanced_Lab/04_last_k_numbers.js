@@ -6,7 +6,7 @@ function kSequence(n, k) {
         for (let element of previousK) {
             sumPreviousK += element;
         }
-        result.push(sumPreviousK)
+        result.push(sumPreviousK);
     }
     console.log(result.join(' '))
 }
