@@ -1,11 +1,11 @@
-function objToJson(name, lastName, haiColor) {
+function objToJson(name, lastName, hairColor) {
     let obj = {
         name,
         lastName,
-        haiColor,
+        hairColor,
     };
     let jsonString = JSON.stringify(obj);
-    console.log(jsonString)
+    console.log(jsonString);
 }
 
-objToJson('George', 'Jones', 'Brown')
+objToJson('George', 'Jones', 'Brown');
