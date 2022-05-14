@@ -2,7 +2,7 @@ function personInfo(firstName, lastName, age) {
     let personDetails = {
         firstName: firstName, 
         lastName: lastName, 
-        age: age};
+        age: Number(age)};
     return personDetails;
 }
 
