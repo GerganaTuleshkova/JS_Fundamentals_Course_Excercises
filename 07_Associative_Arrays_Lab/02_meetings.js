@@ -1,6 +1,5 @@
 function meetings(detailsAsList) {
-    let meetingCalendar = {
-    }
+    let meetingCalendar = {};
     for (let element of detailsAsList) {
         let [day, name] = element.split(' ');
         if (meetingCalendar.hasOwnProperty(day)) {
@@ -8,7 +7,7 @@ function meetings(detailsAsList) {
         }
         else {
             meetingCalendar[day] = name;
-            console.log(`Scheduled for ${day}`)
+            console.log(`Scheduled for ${day}`);
         }
     }
 
@@ -21,4 +20,4 @@ meetings(['Monday Peter',
 'Wednesday Bill',
 'Monday Tim',
 'Friday Tim']
-)
+);
