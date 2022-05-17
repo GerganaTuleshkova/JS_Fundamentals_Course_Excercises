@@ -1,7 +1,7 @@
 function printCharacters(str) {
     for (let ch of str) {
-        console.log(ch)
+        console.log(ch);
     }
 }
 
-printCharacters('AWord')
+printCharacters('AWord');
