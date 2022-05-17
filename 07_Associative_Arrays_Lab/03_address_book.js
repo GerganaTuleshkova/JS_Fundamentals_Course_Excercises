@@ -7,9 +7,7 @@ function addressBook(detailsAsList) {
 
     let sortedBook = Object.entries(myAddressBook);
     sortedBook.sort((a, b) => a[0].localeCompare(b[0]));
-    console.log(sortedBook)
-
-
+    
     for (let [person, address] of sortedBook) {
         console.log(`${person} -> ${address}`);
     }
